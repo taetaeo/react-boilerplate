@@ -10,7 +10,7 @@ module.exports = merge(common, {
     historyApiFallback: true,
     hot: true,
     compress: true,
-    port: 9000,
+    port: 9000, // 포트 설정
   },
   plugins: [
     new BundleAnalyzerPlugin({
